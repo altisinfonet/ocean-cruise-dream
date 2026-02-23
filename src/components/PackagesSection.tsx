@@ -1,6 +1,6 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Ship, Calendar, Users } from "lucide-react";
+import { Ship, Calendar, Users, CheckCircle } from "lucide-react";
 import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 
 const packages = [
@@ -68,9 +68,9 @@ const PackagesSection = () => {
           <h3 className="text-lg font-bold text-foreground mb-4">Package Inclusions</h3>
           <div className="grid sm:grid-cols-2 gap-3">
             {inclusions.map((item) => (
-              <div key={item} className="flex items-start gap-2 text-sm text-muted-foreground">
-                <span className="mt-0.5 h-2 w-2 rounded-full bg-accent shrink-0" />
-                {item}
+              <div key={item} className="flex items-center gap-2 text-sm text-muted-foreground">
+                <CheckCircle className="h-4 w-4 text-secondary shrink-0" />
+                <span>{item}</span>
               </div>
             ))}
           </div>
