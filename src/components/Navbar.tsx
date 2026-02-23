@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Menu, X, Phone, Mail } from "lucide-react";
+import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const navLinks = [
@@ -27,7 +27,7 @@ const Navbar = () => {
         </a>
 
         {/* Desktop */}
-        <div className="hidden md:flex items-center gap-6">
+        <div className="hidden lg:flex items-center gap-6">
           {navLinks.map((l) => (
             <a key={l.href} href={l.href} className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">
               {l.label}
@@ -35,7 +35,7 @@ const Navbar = () => {
           ))}
         </div>
 
-        <div className="hidden md:flex items-center gap-3">
+        <div className="hidden lg:flex items-center gap-3">
           <a href="tel:+919804347462" className="flex items-center gap-1 text-sm text-muted-foreground hover:text-primary">
             <Phone className="h-4 w-4" /> 98043 47462
           </a>
@@ -44,15 +44,15 @@ const Navbar = () => {
           </Button>
         </div>
 
-        {/* Mobile toggle */}
-        <button className="md:hidden text-foreground" onClick={() => setOpen(!open)}>
+        {/* Mobile/Tablet toggle */}
+        <button className="lg:hidden text-foreground" onClick={() => setOpen(!open)}>
           {open ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
         </button>
       </div>
 
-      {/* Mobile menu */}
+      {/* Mobile/Tablet menu */}
       {open && (
-        <div className="md:hidden bg-card border-t border-border px-4 pb-4">
+        <div className="lg:hidden bg-card border-t border-border px-4 pb-4">
           {navLinks.map((l) => (
             <a key={l.href} href={l.href} onClick={() => setOpen(false)} className="block py-2 text-sm font-medium text-foreground/80 hover:text-primary">
               {l.label}
