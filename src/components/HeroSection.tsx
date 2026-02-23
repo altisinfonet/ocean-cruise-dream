@@ -36,8 +36,8 @@ const HeroSection = () => (
     </div>
 
     {/* Wave SVG bottom */}
-    <div className="absolute bottom-0 left-0 right-0 animate-wave">
-      <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full">
+    <div className="absolute -bottom-1 left-0 right-0">
+      <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full block">
         <path d="M0 60L48 52C96 44 192 28 288 24C384 20 480 28 576 40C672 52 768 68 864 72C960 76 1056 68 1152 56C1248 44 1344 28 1392 20L1440 12V120H0Z" fill="hsl(195 30% 97%)" />
       </svg>
     </div>
