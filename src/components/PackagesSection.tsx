@@ -58,7 +58,9 @@ const PackagesSection = () => {
                   <p className="text-xs text-muted-foreground">Starting from</p>
                   <p className="text-2xl font-bold text-primary">₹{pkg.startingFrom.toLocaleString("en-IN")}</p>
                 </div>
-                <Button size="sm" className="bg-primary text-primary-foreground hover:bg-primary/90 hover:scale-105 transition-transform duration-200">View Details</Button>
+                <Button size="sm" className="bg-primary text-primary-foreground hover:bg-primary/90 hover:scale-105 transition-transform duration-200" asChild>
+                  <a href="#contact">Contact Us</a>
+                </Button>
               </div>
             </div>
           ))}
