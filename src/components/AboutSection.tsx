@@ -2,10 +2,10 @@ import { Shield, Heart, Lightbulb, IndianRupee } from "lucide-react";
 import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 
 const values = [
-  { icon: Shield, label: "Trust & Transparency" },
-  { icon: Heart, label: "Customer Service" },
-  { icon: Lightbulb, label: "Innovative Products" },
-  { icon: IndianRupee, label: "Value for Money" },
+  { icon: Shield, label: "Trust & Transparency", color: "text-blue-500", bg: "bg-blue-500/10 group-hover:bg-blue-500/20" },
+  { icon: Heart, label: "Customer Service", color: "text-rose-500", bg: "bg-rose-500/10 group-hover:bg-rose-500/20" },
+  { icon: Lightbulb, label: "Innovative Products", color: "text-amber-500", bg: "bg-amber-500/10 group-hover:bg-amber-500/20" },
+  { icon: IndianRupee, label: "Value for Money", color: "text-emerald-500", bg: "bg-emerald-500/10 group-hover:bg-emerald-500/20" },
 ];
 
 const AboutSection = () => {
@@ -30,8 +30,8 @@ const AboutSection = () => {
               className={`flex flex-col items-center text-center p-4 rounded-xl bg-card shadow-card border border-border transition-all duration-500 hover:-translate-y-2 hover:shadow-ocean group ${isVisible ? "animate-scale-in" : "opacity-0"}`}
               style={{ animationDelay: `${300 + i * 100}ms` }}
             >
-              <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center mb-3 group-hover:bg-primary/20 transition-colors duration-300">
-                <v.icon className="h-6 w-6 text-primary group-hover:scale-110 transition-transform duration-300" />
+              <div className={`h-12 w-12 rounded-full ${v.bg} flex items-center justify-center mb-3 transition-colors duration-300`}>
+                <v.icon className={`h-6 w-6 ${v.color} group-hover:scale-110 transition-transform duration-300`} />
               </div>
               <p className="text-sm font-semibold text-foreground">{v.label}</p>
             </div>
