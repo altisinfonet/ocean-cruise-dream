@@ -93,6 +93,12 @@ const Footer = () => {
           <p className="text-xs text-primary-foreground/50">
             © {new Date().getFullYear()} BookNGo. All rights reserved.
           </p>
+          <p className="text-xs text-primary-foreground/50">
+            Developed by{" "}
+            <a href="https://www.altisinfonet.com" target="_blank" rel="noopener noreferrer" className="text-secondary hover:underline font-medium">
+              Altis Infonet Private Limited
+            </a>
+          </p>
         </div>
       </div>
     </footer>
