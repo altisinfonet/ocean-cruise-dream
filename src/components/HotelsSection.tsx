@@ -133,6 +133,9 @@ const HotelsSection = () => {
             </TableBody>
           </Table>
         </div>
+        <div className={`mt-4 inline-block bg-secondary/15 border border-secondary/30 rounded-lg px-4 py-2 transition-all duration-700 ${isVisible ? "animate-fade-up" : "opacity-0"}`} style={{ animationDelay: "400ms" }}>
+          <p className="text-sm font-bold text-secondary">✦ Breakfast &amp; Dinner (MAP) Included</p>
+        </div>
       </div>
     </section>
   );
