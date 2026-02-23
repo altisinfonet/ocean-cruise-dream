@@ -42,7 +42,7 @@ const PackagesSection = () => {
               style={{ animationDelay: `${150 + i * 100}ms` }}
             >
               {pkg.popular && (
-                <Badge className="absolute -top-3 right-4 bg-secondary text-secondary-foreground animate-pulse-glow">Most Popular</Badge>
+                <Badge className="absolute -top-3 right-4 bg-secondary text-secondary-foreground">Most Popular</Badge>
               )}
               <div className="flex items-center gap-2 mb-3">
                 <Ship className="h-5 w-5 text-primary" />
