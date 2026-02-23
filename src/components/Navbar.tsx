@@ -33,7 +33,7 @@ const Navbar = () => {
 
         <div className="hidden lg:flex items-center gap-3">
           <a href="tel:+919804347462" className="flex items-center gap-1 text-sm text-muted-foreground hover:text-primary">
-            <Phone className="h-4 w-4" /> 98043 47462
+            <Phone className="h-4 w-4" /> <span className="font-bold">98043 47462</span>
           </a>
           <Button size="sm" className="bg-secondary text-secondary-foreground hover:bg-secondary/90 animate-pulse-glow hover:scale-105 transition-transform duration-200">
             Book Now
