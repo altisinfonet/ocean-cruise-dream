@@ -1,5 +1,6 @@
 import { MapPin, Phone, Mail, Globe, Navigation } from "lucide-react";
 import { useScrollReveal } from "@/hooks/use-scroll-reveal";
+import logo from "@/assets/logo.png";
 
 const offices = [
   {
@@ -87,10 +88,7 @@ const Footer = () => {
       <div className="ocean-gradient py-6 px-4">
         <div className="container mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
-            <span className="text-lg font-extrabold text-primary-foreground">
-              BOOK<span className="text-secondary">N</span>GO
-            </span>
-            <span className="text-primary-foreground/50 text-xs italic">the easiest way to</span>
+            <img src={logo} alt="BookNGo" className="h-8 w-auto brightness-0 invert" />
           </div>
           <p className="text-xs text-primary-foreground/50">
             © {new Date().getFullYear()} BookNGo. All rights reserved.

@@ -38,13 +38,13 @@ const HeroSection = () => (
     {/* Animated Wave SVG bottom */}
     <div className="absolute -bottom-1 left-0 right-0 overflow-hidden">
       <svg viewBox="0 0 1440 180" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-[200%] block animate-wave-scroll" preserveAspectRatio="none" style={{ height: "120px" }}>
-        <path d="M0 80C120 100 240 60 360 70C480 80 600 110 720 100C840 90 960 50 1080 60C1200 70 1320 100 1440 90C1560 80 1680 50 1800 60C1920 70 2040 100 2160 90C2280 80 2400 50 2520 60C2640 70 2760 100 2880 80V180H0Z" fill="hsl(195 30% 97% / 0.4)" />
+        <path d="M0 80C120 100 240 60 360 70C480 80 600 110 720 100C840 90 960 50 1080 60C1200 70 1320 100 1440 90C1560 80 1680 50 1800 60C1920 70 2040 100 2160 90C2280 80 2400 50 2520 60C2640 70 2760 100 2880 80V180H0Z" fill="hsl(210 20% 97% / 0.4)" />
       </svg>
       <svg viewBox="0 0 1440 180" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-[200%] block animate-wave-scroll-reverse absolute bottom-0 left-0" preserveAspectRatio="none" style={{ height: "100px" }}>
-        <path d="M0 90C160 70 280 110 400 100C520 90 640 60 760 70C880 80 1000 110 1120 100C1240 90 1360 60 1480 70C1600 80 1720 110 1840 100C1960 90 2080 60 2200 70C2320 80 2440 110 2560 100C2680 90 2800 60 2880 70V180H0Z" fill="hsl(195 30% 97% / 0.6)" />
+        <path d="M0 90C160 70 280 110 400 100C520 90 640 60 760 70C880 80 1000 110 1120 100C1240 90 1360 60 1480 70C1600 80 1720 110 1840 100C1960 90 2080 60 2200 70C2320 80 2440 110 2560 100C2680 90 2800 60 2880 70V180H0Z" fill="hsl(210 20% 97% / 0.6)" />
       </svg>
       <svg viewBox="0 0 1440 180" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-[200%] block animate-wave-scroll-slow absolute bottom-0 left-0" preserveAspectRatio="none" style={{ height: "80px" }}>
-        <path d="M0 100C180 80 300 120 420 110C540 100 660 70 780 80C900 90 1020 120 1140 110C1260 100 1380 70 1500 80C1620 90 1740 120 1860 110C1980 100 2100 70 2220 80C2340 90 2460 120 2580 110C2700 100 2820 70 2880 80V180H0Z" fill="hsl(195 30% 97%)" />
+        <path d="M0 100C180 80 300 120 420 110C540 100 660 70 780 80C900 90 1020 120 1140 110C1260 100 1380 70 1500 80C1620 90 1740 120 1860 110C1980 100 2100 70 2220 80C2340 90 2460 120 2580 110C2700 100 2820 70 2880 80V180H0Z" fill="hsl(210 20% 97%)" />
       </svg>
     </div>
   </section>
