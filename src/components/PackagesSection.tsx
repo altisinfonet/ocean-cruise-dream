@@ -2,6 +2,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Ship, Calendar, Users, CheckCircle } from "lucide-react";
 import { useScrollReveal } from "@/hooks/use-scroll-reveal";
+import cruiseBg from "@/assets/cruise-bg.jpg";
 
 const packages = [
   { id: 1, title: "Best of Andamans", duration: "5N 6D", route: "Port Blair 3N + Havelock 1N + Neil Island 1N", startingFrom: 10000, popular: true },
@@ -24,8 +25,11 @@ const PackagesSection = () => {
   const { ref, isVisible } = useScrollReveal();
 
   return (
-    <section id="packages" className="py-20 px-4 bg-muted/50" ref={ref}>
-      <div className="container mx-auto">
+    <section id="packages" className="relative py-20 px-4 overflow-hidden" ref={ref}>
+      <div className="absolute inset-0">
+        <img src={cruiseBg} alt="" className="w-full h-full object-cover opacity-10" />
+      </div>
+      <div className="relative container mx-auto">
         <div className={`text-center mb-14 ${isVisible ? "animate-fade-up" : "opacity-0"}`}>
           <p className="text-secondary font-semibold uppercase tracking-widest text-sm mb-2">Tour Packages</p>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground">Andaman Holiday Deals</h2>
