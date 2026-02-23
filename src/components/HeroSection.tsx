@@ -26,11 +26,11 @@ const HeroSection = () => (
         It's time to end your search here… Discover pristine beaches, crystal-clear waters, and unforgettable adventures with BookNGo.
       </p>
       <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up delay-500">
-        <Button size="lg" className="bg-secondary text-secondary-foreground hover:bg-secondary/90 text-base px-8 shadow-ocean hover:scale-105 transition-transform duration-200">
-          <Anchor className="mr-2 h-5 w-5" /> Explore Packages
+        <Button size="lg" className="bg-secondary text-secondary-foreground hover:bg-secondary/90 text-base px-8 shadow-ocean hover:scale-105 transition-transform duration-200" asChild>
+          <a href="#packages"><Anchor className="mr-2 h-5 w-5" /> Explore Packages</a>
         </Button>
-        <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground bg-primary-foreground/10 hover:bg-primary-foreground/20 text-base px-8 hover:scale-105 transition-transform duration-200">
-          Contact Us
+        <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground bg-primary-foreground/10 hover:bg-primary-foreground/20 text-base px-8 hover:scale-105 transition-transform duration-200" asChild>
+          <a href="#contact">Contact Us</a>
         </Button>
       </div>
     </div>
