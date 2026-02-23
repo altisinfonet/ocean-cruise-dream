@@ -3,12 +3,12 @@ import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const navLinks = [
-  { label: "Home", href: "#home" },
-  { label: "Destinations", href: "#destinations" },
-  { label: "Packages", href: "#packages" },
-  { label: "Water Sports", href: "#watersports" },
-  { label: "About", href: "#about" },
-  { label: "Contact", href: "#contact" },
+  { label: "HOME", href: "#home" },
+  { label: "ABOUT", href: "#about" },
+  { label: "DESTINATIONS", href: "#destinations" },
+  { label: "PACKAGES", href: "#packages" },
+  { label: "WATER SPORTS", href: "#watersports" },
+  { label: "CONTACT", href: "#contact" },
 ];
 
 const Navbar = () => {
