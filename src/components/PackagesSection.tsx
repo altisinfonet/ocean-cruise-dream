@@ -27,7 +27,7 @@ const PackagesSection = () => {
   return (
     <section id="packages" className="relative py-20 px-4 overflow-hidden" ref={ref}>
       <div className="absolute inset-0">
-        <img src={cruiseBg} alt="" className="w-full h-full object-cover opacity-10" />
+        <img src={cruiseBg} alt="" className="w-full h-full object-cover opacity-20" />
       </div>
       <div className="relative container mx-auto">
         <div className={`text-center mb-14 ${isVisible ? "animate-fade-up" : "opacity-0"}`}>
