@@ -5,6 +5,7 @@ import PackagesSection from "@/components/PackagesSection";
 import WaterSportsSection from "@/components/WaterSportsSection";
 import AboutSection from "@/components/AboutSection";
 import Footer from "@/components/Footer";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 const Index = () => {
   return (
@@ -16,6 +17,7 @@ const Index = () => {
       <WaterSportsSection />
       <AboutSection />
       <Footer />
+      <WhatsAppButton />
     </div>
   );
 };
