@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/logo.png";
 
 const navLinks = [
   { label: "HOME", href: "#home" },
@@ -16,14 +17,9 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-card/90 backdrop-blur-md border-b border-border">
-      <div className="container mx-auto flex items-center justify-between py-3 px-4">
-        <a href="#home" className="flex items-center gap-2">
-          <span className="text-2xl font-extrabold tracking-tight">
-            <span className="text-primary">BOOK</span>
-            <span className="text-secondary">N</span>
-            <span className="text-primary">GO</span>
-          </span>
-          <span className="hidden sm:block text-xs text-muted-foreground italic">the easiest way to</span>
+      <div className="container mx-auto flex items-center justify-between py-2 px-4">
+        <a href="#home" className="flex items-center">
+          <img src={logo} alt="BookNGo" className="h-10 sm:h-12 w-auto" />
         </a>
 
         {/* Desktop */}
