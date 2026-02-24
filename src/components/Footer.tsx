@@ -85,6 +85,27 @@ const Footer = () => {
         </div>
       </section>
 
+      <div className="bg-foreground/95 border-t border-primary-foreground/10 py-8 px-4">
+        <div className="container mx-auto">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8 mb-6">
+            {[
+              { label: "Hotels", href: "#hotels" },
+              { label: "Gallery", href: "#gallery" },
+              { label: "Testimonials", href: "#testimonials" },
+              { label: "FAQ", href: "#faq" },
+            ].map((link) => (
+              <a
+                key={link.href}
+                href={link.href}
+                className="text-sm text-primary-foreground/60 hover:text-secondary transition-colors font-medium"
+              >
+                {link.label}
+              </a>
+            ))}
+          </div>
+        </div>
+      </div>
+
       <div className="ocean-gradient py-6 px-4">
         <div className="container mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
