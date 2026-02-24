@@ -18,7 +18,7 @@ const inclusions = [
   "Sightseeing as per itinerary",
   "Professional Photography",
   "Local sightseeing by AC vehicle",
-  "Cruise transfer Port Blair–Neil–Havelock–Port Blair",
+  "Cruise transfer Port Blair–Havelock–Neil–Port Blair",
 ];
 
 const PackagesSection = () => {
