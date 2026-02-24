@@ -29,14 +29,6 @@ const hotelData = [
         luxury: "Mansha Regency",
         premium: "Sea Shell Coral Cove",
       },
-      {
-        economy: "Konark Residency",
-        standard: "",
-        deluxe: "",
-        superDeluxe: "",
-        luxury: "",
-        premium: "",
-      },
     ],
   },
   {
@@ -68,7 +60,7 @@ const hotelData = [
         standard: "Dream Haven Resort",
         deluxe: "Save Green Beach Resort",
         superDeluxe: "Pearl Park Hotel & Resort",
-        luxury: "Aquays",
+        luxury: "Aquays Hotel & Resort",
         premium: "Sea Shell",
       },
       {
@@ -76,7 +68,7 @@ const hotelData = [
         standard: "Neil Banjara",
         deluxe: "C S Empire Resort",
         superDeluxe: "Tango Beach Summer Sand",
-        luxury: "Symphony",
+        luxury: "Symphony Palms Beach Resort",
         premium: "",
       },
     ],
