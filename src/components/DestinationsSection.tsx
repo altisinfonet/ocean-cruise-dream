@@ -1,6 +1,8 @@
 import portBlairImg from "@/assets/port-blair.jpg";
 import havelockImg from "@/assets/havelock.jpg";
 import neilImg from "@/assets/neil-island.jpg";
+import diglipurImg from "@/assets/diglipur.jpg";
+import baratangImg from "@/assets/baratang.jpg";
 import { MapPin } from "lucide-react";
 import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 
@@ -19,6 +21,16 @@ const destinations = [
     name: "Neil Island",
     image: neilImg,
     description: "The 'vegetable bowl' of Andaman — discover the natural rock bridge and serene beaches.",
+  },
+  {
+    name: "Diglipur",
+    image: diglipurImg,
+    description: "The northernmost town — visit Ross & Smith twin islands, Saddle Peak, and turtle nesting sites.",
+  },
+  {
+    name: "Baratang Island & Limestone Cave",
+    image: baratangImg,
+    description: "Journey through mangrove creeks to explore stunning limestone caves and mud volcanoes.",
   },
 ];
 
