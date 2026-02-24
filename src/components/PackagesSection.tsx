@@ -5,18 +5,18 @@ import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 import cruiseBg from "@/assets/cruise-bg.jpg";
 
 const packages = [
-  { id: 1, title: "Best of Andamans", duration: "5N 6D", route: "Port Blair 3N + Havelock 1N + Neil Island 1N", startingFrom: 10000, popular: true },
-  { id: 2, title: "Best of Andamans", duration: "6N 7D", route: "Port Blair 3N + Havelock 2N + Neil Island 1N", startingFrom: 12200, popular: false },
-  { id: 3, title: "Best of Andamans", duration: "5N 6D", route: "Port Blair 2N + Havelock 2N + Neil Island 1N", startingFrom: 10500, popular: false },
-  { id: 4, title: "Best of Andamans", duration: "4N 5D", route: "Port Blair 2N + Havelock 1N + Neil Island 1N", startingFrom: 8200, popular: false },
-  { id: 5, title: "Best of Andamans", duration: "4N 5D", route: "Port Blair 3N + Havelock 1N", startingFrom: 7900, popular: false },
+  { id: 1, title: "Best of Andamans", duration: "5N 6D", route: "Port Blair 3N + Havelock 1N + Neil Island 1N", startingFrom: 14600, popular: true },
+  { id: 2, title: "Best of Andamans", duration: "6N 7D", route: "Port Blair 3N + Havelock 2N + Neil Island 1N", startingFrom: 16700, popular: false },
+  { id: 3, title: "Best of Andamans", duration: "5N 6D", route: "Port Blair 2N + Havelock 2N + Neil Island 1N", startingFrom: 14700, popular: false },
+  { id: 4, title: "Best of Andamans", duration: "4N 5D", route: "Port Blair 2N + Havelock 1N + Neil Island 1N", startingFrom: 12800, popular: false },
+  { id: 5, title: "Best of Andamans", duration: "4N 5D", route: "Port Blair 3N + Havelock 1N", startingFrom: 11700, popular: false },
 ];
 
 const inclusions = [
   "Well appointed accommodation",
   "Breakfast & Dinner (MAP)",
   "Sightseeing as per itinerary",
-  "Airport/jetty transfers in AC vehicle",
+  "Professional Photography",
   "Local sightseeing by AC vehicle",
   "Cruise transfer Port Blair–Neil–Havelock–Port Blair",
 ];
@@ -80,9 +80,6 @@ const PackagesSection = () => {
               </div>
             ))}
           </div>
-          <p className="text-xs text-muted-foreground mt-4 italic">
-            * Rates valid Oct 2025 – Mar 2026 (except 15 Dec – 15 Jan). Subject to availability.
-          </p>
         </div>
       </div>
     </section>
