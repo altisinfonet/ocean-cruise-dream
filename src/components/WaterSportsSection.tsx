@@ -1,3 +1,4 @@
+import ShimmerImage from "@/components/ShimmerImage";
 import scubaImg from "@/assets/scuba-diving.jpg";
 import jetSkiImg from "@/assets/jet-ski.jpg";
 import { Waves } from "lucide-react";
@@ -39,10 +40,10 @@ const WaterSportsSection = () => {
 
         <div className="grid md:grid-cols-2 gap-6 mb-12">
           <div className={`rounded-xl overflow-hidden shadow-card aspect-[4/3] group ${isVisible ? "animate-slide-right" : "opacity-0"}`}>
-            <img src={scubaImg} alt="Scuba diving in Andaman" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" loading="lazy" />
+            <ShimmerImage src={scubaImg} alt="Scuba diving in Andaman" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" wrapperClassName="w-full h-full" loading="lazy" />
           </div>
           <div className={`rounded-xl overflow-hidden shadow-card aspect-[4/3] group ${isVisible ? "animate-slide-left" : "opacity-0"}`}>
-            <img src={jetSkiImg} alt="Jet ski in Andaman" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" loading="lazy" />
+            <ShimmerImage src={jetSkiImg} alt="Jet ski in Andaman" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" wrapperClassName="w-full h-full" loading="lazy" />
           </div>
         </div>
 
