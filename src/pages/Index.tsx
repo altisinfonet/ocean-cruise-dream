@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import DestinationsSection from "@/components/DestinationsSection";
@@ -14,16 +15,22 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
+      <Helmet>
+        <title>BookNGo – Andaman & Nicobar Islands Tour Packages, Hotels & Water Sports</title>
+        <meta name="description" content="Plan your dream Andaman trip with BookNGo. Curated tour packages, handpicked hotels, scuba diving, jet skiing & more." />
+      </Helmet>
       <Navbar />
-      <HeroSection />
-      <DestinationsSection />
-      <PackagesSection />
-      <HotelsSection />
-      <WaterSportsSection />
-      <GallerySection />
-      <TestimonialsSection />
-      <FAQSection />
-      <AboutSection />
+      <main>
+        <HeroSection />
+        <DestinationsSection />
+        <PackagesSection />
+        <HotelsSection />
+        <WaterSportsSection />
+        <GallerySection />
+        <TestimonialsSection />
+        <FAQSection />
+        <AboutSection />
+      </main>
       <Footer />
       <WhatsAppButton />
     </div>
