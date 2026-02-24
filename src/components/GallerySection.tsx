@@ -13,15 +13,15 @@ import img8 from "@/assets/gallery/andaman-8.jpg";
 import img9 from "@/assets/gallery/andaman-9.jpg";
 
 const photos = [
-  { src: img1, alt: "Tropical beach with palm trees in Andaman" },
-  { src: img2, alt: "Crystal clear waters of Andaman Islands" },
-  { src: img3, alt: "White sandy beach with turquoise water" },
-  { src: img4, alt: "Scenic sunset over the Andaman Sea" },
-  { src: img5, alt: "Beautiful coastline of Havelock Island" },
-  { src: img6, alt: "Pristine beach and clear blue sky" },
-  { src: img7, alt: "Underwater coral reef in Andaman" },
-  { src: img8, alt: "Lush green forest meeting the sea" },
-  { src: img9, alt: "Serene ocean view from Andaman shore" },
+  { src: img1, alt: "Tropical beach with swaying palm trees and turquoise water at Radhanagar Beach, Havelock Island, Andaman" },
+  { src: img2, alt: "Crystal clear shallow waters revealing white sand at Elephant Beach, Andaman Islands" },
+  { src: img3, alt: "Aerial view of white sandy coastline with turquoise lagoon at Neil Island, Andaman" },
+  { src: img4, alt: "Golden sunset casting warm hues over the calm Andaman Sea near Port Blair" },
+  { src: img5, alt: "Panoramic view of the lush green coastline and coral reefs at Havelock Island, Andaman" },
+  { src: img6, alt: "Pristine untouched beach with clear blue sky and gentle waves at Baratang Island, Andaman" },
+  { src: img7, alt: "Vibrant underwater coral reef teeming with tropical fish, ideal for scuba diving in Andaman" },
+  { src: img8, alt: "Dense mangrove forest meeting the emerald sea along the Andaman Islands shoreline" },
+  { src: img9, alt: "Serene early morning ocean view with mist rising from the shore at Diglipur, Andaman" },
 ];
 
 const GallerySection = () => {
