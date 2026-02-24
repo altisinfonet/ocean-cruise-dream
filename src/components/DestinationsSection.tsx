@@ -1,3 +1,4 @@
+import ShimmerImage from "@/components/ShimmerImage";
 import portBlairImg from "@/assets/port-blair.jpg";
 import havelockImg from "@/assets/havelock.jpg";
 import neilImg from "@/assets/neil-island.jpg";
@@ -55,9 +56,8 @@ const DestinationsSection = () => {
               className={`group relative rounded-xl overflow-hidden shadow-card bg-card hover:shadow-ocean transition-all duration-500 hover:-translate-y-2 ${isVisible ? "animate-fade-up" : "opacity-0"}`}
               style={{ animationDelay: `${200 + i * 150}ms` }}
             >
-              <div className="aspect-[4/3] overflow-hidden">
-                <img src={d.image} alt={d.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" loading="lazy" />
-              </div>
+                <ShimmerImage src={d.image} alt={d.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" wrapperClassName="w-full h-full" loading="lazy" />
+              
               <div className="p-5">
                 <div className="flex items-center gap-2 mb-2">
                   <MapPin className="h-4 w-4 text-secondary group-hover:animate-wave" />

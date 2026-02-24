@@ -1,6 +1,7 @@
 import { useState, useCallback } from "react";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
 import { useScrollReveal } from "@/hooks/use-scroll-reveal";
+import ShimmerImage from "@/components/ShimmerImage";
 
 import img1 from "@/assets/gallery/andaman-1.jpg";
 import img2 from "@/assets/gallery/andaman-2.jpg";
@@ -59,10 +60,11 @@ const GallerySection = () => {
                 style={{ animationDelay: `${200 + i * 100}ms` }}
                 onClick={() => openLightbox(i)}
               >
-                <img
+                <ShimmerImage
                   src={photo.src}
                   alt={photo.alt}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  wrapperClassName="w-full h-full"
                   loading="lazy"
                 />
                 <div className="absolute inset-0 bg-foreground/0 group-hover:bg-foreground/20 transition-colors duration-300 flex items-center justify-center">
