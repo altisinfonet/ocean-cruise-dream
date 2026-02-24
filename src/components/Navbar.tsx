@@ -25,7 +25,7 @@ const Navbar = () => {
         {/* Desktop */}
         <div className="hidden lg:flex items-center gap-6">
           {navLinks.map((l) => (
-            <a key={l.href} href={l.href} className="text-sm font-medium text-foreground/80 hover:text-primary hover:drop-shadow-[0_0_8px_hsl(var(--primary)/0.6)] transition-all duration-300">
+            <a key={l.href} href={l.href} className="text-sm font-medium text-foreground/80 hover:text-[hsl(200,80%,50%)] hover:drop-shadow-[0_0_10px_hsl(200,80%,55%)] transition-all duration-300">
               {l.label}
             </a>
           ))}
@@ -50,7 +50,7 @@ const Navbar = () => {
       {open && (
         <div className="lg:hidden bg-card border-t border-border px-4 pb-4">
           {navLinks.map((l) => (
-            <a key={l.href} href={l.href} onClick={() => setOpen(false)} className="block py-2 text-sm font-medium text-foreground/80 hover:text-primary hover:drop-shadow-[0_0_8px_hsl(var(--primary)/0.6)] transition-all duration-300">
+            <a key={l.href} href={l.href} onClick={() => setOpen(false)} className="block py-2 text-sm font-medium text-foreground/80 hover:text-[hsl(200,80%,50%)] hover:drop-shadow-[0_0_10px_hsl(200,80%,55%)] transition-all duration-300">
               {l.label}
             </a>
           ))}
