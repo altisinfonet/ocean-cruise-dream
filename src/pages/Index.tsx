@@ -5,6 +5,7 @@ import PackagesSection from "@/components/PackagesSection";
 import HotelsSection from "@/components/HotelsSection";
 import WaterSportsSection from "@/components/WaterSportsSection";
 import GallerySection from "@/components/GallerySection";
+import TestimonialsSection from "@/components/TestimonialsSection";
 import AboutSection from "@/components/AboutSection";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
@@ -19,6 +20,7 @@ const Index = () => {
       <HotelsSection />
       <WaterSportsSection />
       <GallerySection />
+      <TestimonialsSection />
       <AboutSection />
       <Footer />
       <WhatsAppButton />
