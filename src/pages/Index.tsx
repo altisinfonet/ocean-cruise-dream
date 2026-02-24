@@ -7,6 +7,7 @@ import WaterSportsSection from "@/components/WaterSportsSection";
 import GallerySection from "@/components/GallerySection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import AboutSection from "@/components/AboutSection";
+import FAQSection from "@/components/FAQSection";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
@@ -21,6 +22,7 @@ const Index = () => {
       <WaterSportsSection />
       <GallerySection />
       <TestimonialsSection />
+      <FAQSection />
       <AboutSection />
       <Footer />
       <WhatsAppButton />
