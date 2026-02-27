@@ -14,13 +14,13 @@ import img8 from "@/assets/gallery/andaman-8.jpg";
 import img9 from "@/assets/gallery/andaman-9.jpg";
 
 const photos = [
-  { src: img1, alt: "Tropical beach with swaying palm trees and turquoise water at Radhanagar Beach, Havelock Island, Andaman" },
-  { src: img2, alt: "Crystal clear shallow waters revealing white sand at Elephant Beach, Andaman Islands" },
-  { src: img3, alt: "Aerial view of white sandy coastline with turquoise lagoon at Neil Island, Andaman" },
-  { src: img4, alt: "Golden sunset casting warm hues over the calm Andaman Sea near Port Blair" },
-  { src: img5, alt: "Panoramic view of the lush green coastline and coral reefs at Havelock Island, Andaman" },
-  { src: img6, alt: "Pristine untouched beach with clear blue sky and gentle waves at Baratang Island, Andaman" },
-  { src: img7, alt: "Vibrant underwater coral reef teeming with tropical fish, ideal for scuba diving in Andaman" },
+  { src: img1, alt: "Pristine white sandy beach with lush green forest and calm waters at Radhanagar Beach, Andaman" },
+  { src: img2, alt: "ITT Majestic high-speed catamaran ferry on the turquoise Andaman Sea" },
+  { src: img3, alt: "Happy group of tourists posing on the white sandy beach at Havelock Island, Andaman" },
+  { src: img4, alt: "Romantic candlelight beach dinner setup under palm trees at Andaman Islands" },
+  { src: img5, alt: "Wooden boardwalk through dense mangrove forest in Andaman Islands" },
+  { src: img6, alt: "Couple sitting on rocks with turquoise waves splashing at Neil Island, Andaman" },
+  { src: img7, alt: "Stunning turquoise sea view from a shaded beach in Andaman Islands" },
   { src: img8, alt: "Dense mangrove forest meeting the emerald sea along the Andaman Islands shoreline" },
   { src: img9, alt: "Serene early morning ocean view with mist rising from the shore at Diglipur, Andaman" },
 ];
