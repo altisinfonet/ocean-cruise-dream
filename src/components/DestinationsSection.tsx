@@ -24,14 +24,14 @@ const destinations = [
     description: "The 'vegetable bowl' of Andaman — discover the natural rock bridge and serene beaches.",
   },
   {
-    name: "Diglipur",
-    image: diglipurImg,
-    description: "The northernmost town — visit Ross & Smith twin islands, Saddle Peak, and turtle nesting sites.",
-  },
-  {
     name: "Baratang Island & Limestone Cave",
     image: baratangImg,
     description: "Journey through mangrove creeks to explore stunning limestone caves and mud volcanoes.",
+  },
+  {
+    name: "Diglipur",
+    image: diglipurImg,
+    description: "The northernmost town — visit Ross & Smith twin islands, Saddle Peak, and turtle nesting sites.",
   },
 ];
 
