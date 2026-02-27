@@ -67,9 +67,9 @@ const GallerySection = () => {
                   wrapperClassName="w-full h-full"
                   loading="lazy"
                 />
-                <div className="absolute inset-0 bg-foreground/0 group-hover:bg-foreground/20 transition-colors duration-300 flex items-center justify-center">
-                  <span className="text-background font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-sm">
-                    View
+                <div className="absolute inset-0 bg-foreground/0 group-hover:bg-foreground/40 transition-all duration-300 flex flex-col items-center justify-end pb-4">
+                  <span className="text-background font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-sm tracking-wide drop-shadow-md">
+                    {photo.caption}
                   </span>
                 </div>
               </div>
