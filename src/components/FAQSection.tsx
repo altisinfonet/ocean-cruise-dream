@@ -60,6 +60,8 @@ const gradients = [
   "bg-gradient-to-r from-lime-50 to-green-50",
   "bg-gradient-to-r from-orange-50 to-red-50",
 ];
+
+const FAQSection = () => {
   const { ref, isVisible } = useScrollReveal();
 
   return (
