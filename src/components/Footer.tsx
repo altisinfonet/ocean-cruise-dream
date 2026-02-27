@@ -87,7 +87,7 @@ const Footer = () => {
 
       <div className="bg-foreground/95 border-t border-primary-foreground/10 py-8 px-4">
         <div className="container mx-auto">
-          <div className="grid grid-cols-2 sm:flex sm:flex-row items-center justify-center gap-4 sm:gap-8 mb-6">
+          <div className="grid grid-cols-2 place-items-center sm:flex sm:flex-row items-center justify-center gap-4 sm:gap-8 mb-6">
             {[
               { label: "Hotels", href: "#hotels" },
               { label: "Gallery", href: "#gallery" },
