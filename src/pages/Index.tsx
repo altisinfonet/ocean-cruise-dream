@@ -11,6 +11,7 @@ import AboutSection from "@/components/AboutSection";
 import FAQSection from "@/components/FAQSection";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import FacebookButton from "@/components/FacebookButton";
 
 const Index = () => {
   return (
