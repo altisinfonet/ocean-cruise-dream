@@ -14,15 +14,15 @@ import img8 from "@/assets/gallery/andaman-8.jpg";
 import img9 from "@/assets/gallery/andaman-9.jpg";
 
 const photos = [
-  { src: img1, alt: "Pristine white sandy beach with lush green forest and calm waters at Radhanagar Beach, Andaman" },
-  { src: img2, alt: "ITT Majestic high-speed catamaran ferry on the turquoise Andaman Sea" },
-  { src: img3, alt: "Happy group of tourists posing on the white sandy beach at Havelock Island, Andaman" },
-  { src: img4, alt: "Romantic candlelight beach dinner setup under palm trees at Andaman Islands" },
-  { src: img5, alt: "Wooden boardwalk through dense mangrove forest in Andaman Islands" },
-  { src: img6, alt: "Couple sitting on rocks with turquoise waves splashing at Neil Island, Andaman" },
-  { src: img7, alt: "Stunning turquoise sea view from a shaded beach in Andaman Islands" },
-  { src: img8, alt: "Dense mangrove forest meeting the emerald sea along the Andaman Islands shoreline" },
-  { src: img9, alt: "Serene early morning ocean view with mist rising from the shore at Diglipur, Andaman" },
+  { src: img1, alt: "Pristine white sandy beach with lush green forest and calm waters at Radhanagar Beach, Andaman", caption: "Radhanagar Beach" },
+  { src: img2, alt: "ITT Majestic high-speed catamaran ferry on the turquoise Andaman Sea", caption: "Andaman Sea Ferry" },
+  { src: img3, alt: "Happy group of tourists posing on the white sandy beach at Havelock Island, Andaman", caption: "Havelock Island" },
+  { src: img4, alt: "Romantic candlelight beach dinner setup under palm trees at Andaman Islands", caption: "Romantic Beach Dinner" },
+  { src: img5, alt: "Wooden boardwalk through dense mangrove forest in Andaman Islands", caption: "Mangrove Boardwalk" },
+  { src: img6, alt: "Couple sitting on rocks with turquoise waves splashing at Neil Island, Andaman", caption: "Neil Island" },
+  { src: img7, alt: "Stunning turquoise sea view from a shaded beach in Andaman Islands", caption: "Elephant Beach" },
+  { src: img8, alt: "Dense mangrove forest meeting the emerald sea along the Andaman Islands shoreline", caption: "Baratang Island" },
+  { src: img9, alt: "Serene early morning ocean view with mist rising from the shore at Diglipur, Andaman", caption: "Diglipur" },
 ];
 
 const GallerySection = () => {
