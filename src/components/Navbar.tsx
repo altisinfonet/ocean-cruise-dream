@@ -56,7 +56,7 @@ const Navbar = () => {
           ))}
           <div className="flex items-center gap-2 pt-2">
             <Phone className="h-4 w-4 text-muted-foreground" />
-            <a href="tel:+919804347462" className="text-sm text-muted-foreground">98043 47462</a>
+            <a href="tel:+919804347462" className="text-sm text-muted-foreground">+91 98043 47462</a>
           </div>
           <Button asChild size="sm" className="mt-3 w-full bg-secondary text-secondary-foreground hover:bg-secondary/90 animate-pulse-glow">
             <a href="#contact" onClick={() => setOpen(false)}>Book Now</a>
