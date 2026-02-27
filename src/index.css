@@ -209,17 +209,17 @@ html {
 }
 
 @keyframes color-blink {
-  0%   { color: #e53935; opacity: 1; }
-  10%  { color: #8e24aa; opacity: 0.6; }
-  20%  { color: #1e88e5; opacity: 1; }
-  30%  { color: #00897b; opacity: 0.65; }
-  40%  { color: #f4511e; opacity: 1; }
-  50%  { color: #3949ab; opacity: 0.6; }
-  60%  { color: #00acc1; opacity: 1; }
-  70%  { color: #e91e63; opacity: 0.65; }
-  80%  { color: #43a047; opacity: 1; }
-  90%  { color: #fb8c00; opacity: 0.6; }
-  100% { color: #e53935; opacity: 1; }
+  0%   { color: #e53935; opacity: 1; text-shadow: 0 0 8px #e5393540; }
+  10%  { color: #8e24aa; opacity: 0.7; text-shadow: 0 0 8px #8e24aa40; }
+  20%  { color: #1e88e5; opacity: 1; text-shadow: 0 0 8px #1e88e540; }
+  30%  { color: #00897b; opacity: 0.7; text-shadow: 0 0 8px #00897b40; }
+  40%  { color: #f4511e; opacity: 1; text-shadow: 0 0 8px #f4511e40; }
+  50%  { color: #3949ab; opacity: 0.7; text-shadow: 0 0 8px #3949ab40; }
+  60%  { color: #00acc1; opacity: 1; text-shadow: 0 0 8px #00acc140; }
+  70%  { color: #e91e63; opacity: 0.7; text-shadow: 0 0 8px #e91e6340; }
+  80%  { color: #43a047; opacity: 1; text-shadow: 0 0 8px #43a04740; }
+  90%  { color: #fb8c00; opacity: 0.7; text-shadow: 0 0 8px #fb8c0040; }
+  100% { color: #e53935; opacity: 1; text-shadow: 0 0 8px #e5393540; }
 }
 
 .animate-color-blink {
