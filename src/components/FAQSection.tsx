@@ -50,7 +50,16 @@ const faqs = [
   },
 ];
 
-const FAQSection = () => {
+const gradients = [
+  "bg-gradient-to-r from-blue-50 to-cyan-50",
+  "bg-gradient-to-r from-teal-50 to-emerald-50",
+  "bg-gradient-to-r from-sky-50 to-indigo-50",
+  "bg-gradient-to-r from-violet-50 to-purple-50",
+  "bg-gradient-to-r from-pink-50 to-rose-50",
+  "bg-gradient-to-r from-amber-50 to-yellow-50",
+  "bg-gradient-to-r from-lime-50 to-green-50",
+  "bg-gradient-to-r from-orange-50 to-red-50",
+];
   const { ref, isVisible } = useScrollReveal();
 
   return (
