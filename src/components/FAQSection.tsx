@@ -90,7 +90,7 @@ const FAQSection = () => {
               <AccordionItem
                 key={i}
                 value={`faq-${i}`}
-                className="bg-card border border-border rounded-xl px-5 shadow-card"
+                className={`${gradients[i % gradients.length]} border border-border rounded-xl px-5 shadow-card`}
               >
                 <AccordionTrigger className="text-left text-foreground font-semibold hover:no-underline gap-3">
                   <span className="flex items-center gap-3">
