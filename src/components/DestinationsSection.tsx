@@ -70,9 +70,15 @@ const DestinationsSection = () => {
           ))}
         </div>
 
-        <p className="text-center mt-10 text-sm font-semibold animate-color-blink max-w-2xl mx-auto">
-          We also provide end-to-end travel assistance including local transport, ferry ticket booking, and entry tickets for all major sightseeing attractions.
-        </p>
+        <div className="mt-12 flex justify-center">
+          <div className="relative inline-flex items-center gap-3 px-6 py-4 rounded-2xl border-2 border-dashed border-secondary/40 bg-gradient-to-r from-primary/5 via-secondary/5 to-accent/5 shadow-md max-w-2xl">
+            <span className="text-2xl animate-spin" style={{ animationDuration: "4s" }}>✈️</span>
+            <p className="text-center text-sm font-bold animate-color-blink leading-relaxed tracking-wide">
+              We also provide end-to-end travel assistance including local transport, ferry ticket booking, and entry tickets for all major sightseeing attractions.
+            </p>
+            <span className="text-2xl animate-spin" style={{ animationDuration: "4s", animationDirection: "reverse" }}>🌊</span>
+          </div>
+        </div>
       </div>
     </section>
   );
