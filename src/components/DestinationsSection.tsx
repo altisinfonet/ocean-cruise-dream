@@ -69,6 +69,10 @@ const DestinationsSection = () => {
             </div>
           ))}
         </div>
+
+        <p className="text-center mt-10 text-sm font-semibold animate-color-blink max-w-2xl mx-auto">
+          We also provide end-to-end travel assistance including local transport, ferry ticket booking, and entry tickets for all major sightseeing attractions.
+        </p>
       </div>
     </section>
   );
