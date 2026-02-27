@@ -34,7 +34,7 @@ const Footer = () => {
 
           <div className="grid sm:grid-cols-3 gap-6 mb-14 max-w-3xl mx-auto">
             {[
-              { icon: Phone, label: "Call Us", value: "98043 47462", href: "tel:+919804347462" },
+              { icon: Phone, label: "Call Us", value: "+91 98043 47462", href: "tel:+919804347462" },
               { icon: Mail, label: "Email Us", value: "info@booksngo.com", href: "mailto:info@booksngo.com" },
               { icon: Globe, label: "Website", value: "www.booksngo.com", href: "https://www.booksngo.com" },
             ].map((item, i) => (
